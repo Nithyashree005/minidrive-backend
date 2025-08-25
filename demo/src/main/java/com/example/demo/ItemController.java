@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/items")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://stunning-dasik-5a83b5.netlify.app")
 public class ItemController {
 
     @Autowired

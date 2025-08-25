@@ -15,7 +15,8 @@ public class WebConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 // Allow all endpoints to be called from your frontend URL
                 registry.addMapping("/**")
-                        .allowedOrigins("https://stunning-dasik-5a83b5.netlify.app/") // <-- put your Netlify URL here
+                        .allowedOrigins("https://stunning-dasik-5a83b5.netlify.app") 
+// <-- put your Netlify URL here
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
